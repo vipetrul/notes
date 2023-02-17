@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "LambdaApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger/index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:62046;http://localhost:62047"
+    }
+  }
+}

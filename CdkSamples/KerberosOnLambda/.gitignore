@@ -1,0 +1,16 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+api/LambdaApi/.vs/
+api/LambdaApi/src/LambdaApi/obj/
+api/LambdaApi/src/LambdaApi/bin/
+api/LambdaApi/src/LambdaApi/LambdaApi.csproj.user
+
+cdk.context.json
+
