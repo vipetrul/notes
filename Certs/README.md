@@ -2,12 +2,14 @@
 
 ## Ubuntu
 
+Cert files must have `*.crt` extension.
 copy certs to `/usr/local/share/ca-certificates/`
 
 `sudo update-ca-certificates`
 
 ## CentOS
 
+Cert files must have `*.pem` extension.
 copy certs to `/etc/pki/ca-trust/source/anchors/`
 
 `sudo update-ca-trust`
