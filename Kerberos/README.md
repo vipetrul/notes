@@ -22,3 +22,7 @@ The `kdestroy` command will remove all tickets.
 Acquire forwardable TGT ticket :
 
 `kinit -f -V username@CONTOSO.COM`
+
+Acquire service ticket (for a SQL Server as an example):
+
+`kvno MSSQLSvc/my-sql-instance.contoso.com`

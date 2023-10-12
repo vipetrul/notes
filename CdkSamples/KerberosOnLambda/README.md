@@ -17,7 +17,7 @@ When using Kerberos with SQL Server, it is very import to use proper SQL Server 
 Example:<br>
 `setspn -T DIRECTORY.KERBEROS-ON-LAMBDA-SAMPLE.COM -F -Q MSSQLSvc/*`
 
-It is possible that more than one host name for the same server is suitable to be used with Kerberos. Although the defaul RDS Endpoint address is note one of them!!!
+It is possible that more than one host name for the same server is suitable to be used with Kerberos. Although the default RDS Endpoint address is note one of them!!!
 
 ## Create KeyTab file
 
