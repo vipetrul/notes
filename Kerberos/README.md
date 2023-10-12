@@ -26,3 +26,9 @@ Acquire forwardable TGT ticket :
 Acquire service ticket (for a SQL Server as an example):
 
 `kvno MSSQLSvc/my-sql-instance.contoso.com`
+
+## Troubleshooting
+
+Set env variable `KRB5_TRACE` to a file location where logs should be captured:
+
+`export KRB5_TRACE=$HOME/kerb.log`
